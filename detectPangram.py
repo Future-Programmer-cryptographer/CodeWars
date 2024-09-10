@@ -5,7 +5,7 @@
 # alphabet = 'abcdefghikjlmnopqrstuvwxyz'
 # alphabet = alphabet.translate((str.maketrans('', '', string.punctuation)))
 # alphabet = sorted(alphabet)
-# alphabet = set(alphabet)
+# alphabet = set(alphabet) 
 
 # def is_pangram(st):
 #     st = st.lower()
@@ -25,10 +25,7 @@
 def is_pangram(s):
     s = s.lower()
     for char in 'abcdefghijklmnopqrstuvwxyz':
-        print (char)
         if char not in s:
-            print('\n')
-            print(char)
             return False
     return True
 
@@ -39,4 +36,4 @@ def test_pangrams():
                      "Cwm fjord bank glyphs vext quiz",
                      "Pack my box with five dozen liquor jugs.",
                      "abcdefghijklm opqrstuvwxyz.",
-                     "ABCD45EFGH,IJK,LMNOPQR56STUVW3XYZ" ]
+                     "ABCD45EFGH,IJK,LMNOPQR56STUVW3XYZ"]
