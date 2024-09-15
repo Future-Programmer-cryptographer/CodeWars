@@ -1,3 +1,4 @@
+# 12th Sept 2024 
 def to_jaden_case(string):
     # start of each word char, want to take the first and .upper() that 
     return ' '.join(i.capitalize() for i in string.split(" "))
