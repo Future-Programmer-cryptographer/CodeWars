@@ -3,4 +3,4 @@
 def square(n):
     return n * n 
 
-print(square(5))
+print('returnsomethin else as well')
